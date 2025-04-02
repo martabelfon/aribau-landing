@@ -20,7 +20,7 @@ const NavBar: React.FC<{ isScrolled: boolean }> = ({ isScrolled }) => {
     return (
         <nav className={`h-[90px] fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
             <div className='flex flex-row justify-center items-center'>
-                <ul className='flex  items-center'>
+                <ul className='flex  items-center justify-between w-full max-w-6xl px-4'>
                     <NavItem label={t('aribauHistory')} href="/aribauHistory" />
                     <NavItem label={t('catalog')} href="/catalog" />
                     <NavItem label={t('wittyWines')} href="/wittyWines" />
