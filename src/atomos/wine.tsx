@@ -1,6 +1,6 @@
 interface WineProps {
     image: string;
-    name: string;
+    name?: string;
     description?: string;
     technicalSheet?: string;
     history?: string;
@@ -22,7 +22,7 @@ interface WineProps {
         <img
           alt={imageAlt}
           src={image}
-          className="aspect-square w-full h-56 rounded-md object-contain group-hover:opacity-75 lg:aspect-auto lg:h-56"
+          className="aspect-square w-full h-90 rounded-md object-contain group-hover:opacity-75"
         />
         <div className="mt-4 text-center">
           <h3 className="text-sm text-gray-700">

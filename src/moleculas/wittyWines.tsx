@@ -18,7 +18,6 @@ const WittyWines: React.FC = () => {
 
     return (
         <section className='h-[90vh] mt-2 flex flex-col sm:flex-row items-center justify-center text-left px-5'>
-            {/* Contenedor de texto */}
             <div className="w-[20px] sm:w-[50%] mr-5 flex flex-col items-center">
                 <h1 className="mb-15 text-[30px] text-3xl font-semibold tracking-tight text-balance sm:text-4xl text-center">
                     {t("welcome")}

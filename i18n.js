@@ -12,7 +12,7 @@ if (typeof window !== "undefined") {
       fallbackLng: "es",
       lng: "es",
       supportedLngs: ["en", "es", "ca"],
-      ns: ["common", "navBar", "wittyWines", "footer", "history", "modules"], 
+      ns: ["common", "navBar", "wittyWines", "footer", "history", "modules", "wine"], 
       defaultNS: "common", // Namespace por defecto
       detection: {
         order: ["path", "cookie", "htmlTag"],

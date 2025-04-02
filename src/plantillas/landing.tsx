@@ -28,7 +28,7 @@ const Landing: React.FC = () => {
                 <NavBar isScrolled={isScrolled} />
             </header>
             <main>
-                <section style={{ position: 'relative', height: '90vh' }}>
+                <section style={{ position: 'relative', height: '100vh' }}>
                     <video 
                         src="/iconos/intro2.MP4"
                         autoPlay 

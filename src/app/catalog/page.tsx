@@ -1,5 +1,6 @@
 'use client';
 
+import Footer from "@/moleculas/footer";
 import NavBar from "@/moleculas/navBar";
 import WineProductList from "@/moleculas/wineProduct";
 import { useEffect, useState } from "react";
@@ -24,9 +25,11 @@ return (
         <NavBar isScrolled={isScrolled} />
     </div>
         <main>
-            <h1>Aribau Catalogo</h1>
             <WineProductList />
         </main>
+        <footer className="mt-10">
+                <Footer />
+        </footer>
     </>
     );
 }

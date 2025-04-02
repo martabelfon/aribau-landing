@@ -1,5 +1,6 @@
 'use client';
 
+import Footer from "@/moleculas/footer";
 import NavBar from "@/moleculas/navBar";
 import { useEffect, useState } from "react";
 
@@ -26,6 +27,9 @@ return (
             <h1>Aribau Brands</h1>
             <p>Bienvenido a la historia de Aribau...</p>
         </main>
+        <footer className="mt-10">
+                <Footer />
+        </footer>
     </>
     );
 }

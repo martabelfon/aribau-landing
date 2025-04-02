@@ -1,5 +1,6 @@
 'use client';
 
+import Footer from "@/moleculas/footer";
 import NavBar from "@/moleculas/navBar";
 import { useEffect, useState } from "react";
 
@@ -27,6 +28,9 @@ export default function NewsPage() {
             <h1>Aribau Anuncios</h1>
             <p>Bienvenido a la historia de Aribau...</p>
         </main>
+        <footer className="mt-10">
+                <Footer />
+        </footer>
     </>
     );
 }
