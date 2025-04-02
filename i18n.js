@@ -11,8 +11,8 @@ if (typeof window !== "undefined") {
     .init({
       fallbackLng: "es",
       lng: "es",
-      supportedLngs: ["en", "es"],
-      ns: ["common", "navBar"], 
+      supportedLngs: ["en", "es", "ca"],
+      ns: ["common", "navBar", "wittyWines", "footer", "history", "modules"], 
       defaultNS: "common", // Namespace por defecto
       detection: {
         order: ["path", "cookie", "htmlTag"],

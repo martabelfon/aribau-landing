@@ -4,5 +4,8 @@
     "wittyWines": "Witty Wines",
     "brands": "Marcas",
     "news": "Actualidad",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "catalan": "Catalan",
+    "spanish": "Castellano", 
+    "english": "Inglés"
 }
